@@ -6,7 +6,7 @@
 
 - step1:
 ```
-tnpm i tool-chain
+npm i tool-chain
 ```
 
 - step2:
@@ -119,7 +119,6 @@ module.exports = function(cfg, webpack) {
   // 设置externals
   config.externals = {
     requirejs: 'requirejs',
-    kui: 'KUI',
     jquery: 'jQuery',
     backbone: 'Backbone',
     underscore: '_',
