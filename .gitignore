@@ -1,0 +1,9 @@
+node_modules
+**/.DS_Store
+**/.idea
+build/
+logs/
+npm-debug.log
+.nodejs-cache/
+*.bak
+*-bak/
